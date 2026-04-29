@@ -1,6 +1,6 @@
 # 🔍 Forensic JSON Studio
 
-**Version:** `3.1 Stable (Build 3.2.3)`  
+**Version:** `3.2 Stable (Build 3.2.3)`  
 **Role:** Zero-Dependency, High-Performance Forensic Analysis SPA for JSON & HAR datasets.
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
