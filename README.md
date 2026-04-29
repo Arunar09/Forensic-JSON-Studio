@@ -1,27 +1,51 @@
-# Forensic JSON Studio
+# 🔍 Forensic JSON Studio
 
-**Version:** 3.1 Stable (v3.2.3 Build)
-**Role:** Senior Forensic Analysis SPA for JSON and HAR data.
+**Version:** `3.1 Stable (Build 3.2.3)`  
+**Role:** Zero-Dependency, High-Performance Forensic Analysis SPA for JSON & HAR datasets.
 
-## Overview
-Forensic JSON Studio is a high-performance, zero-dependency Single Page Application (SPA) designed for deep inspection of network traffic and complex JSON datasets. It functions entirely offline, ensuring maximum data privacy for sensitive forensic audits.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
-## Key Features
-- **🌐 Network Intelligence:** Waterfall vizualization, timing breakdowns, and domain mapping.
-- **🔐 Auth Flow Detector:** Automatic detection and decoding of JWTs, Auth headers, and session cookies.
-- **🛡 Security Auditor:** Automated checks for HSTS, CSP, X-Frame-Options, and PII leakage over plaintext.
-- **◈ GraphQL Engine:** Specialized parsing for GraphQL operations (Queries, Mutations, Subscriptions).
-- **♊ Duplicate Finder:** Identifies redundant network calls and calculates wasted bandwidth.
-- **🛡 Sanitization Engine:** One-click masking of Emails, IPs, Tokens, and Hostnames for safe sharing with LLMs.
-- **📐 Schema Inference:** Automatic generation of JSON Schema from live data.
-- **🔀 Deep Diff:** Recursive comparison engine for identifying structural changes between JSON blobs.
+---
 
-## Performance
-- **Size-Aware Gating:** Automatically optimizes UI features based on file size.
-- **Memory Discipline:** Optimized for large files (>20MB) via WebWorker parsing and raw-mode fallbacks.
-- **Lazy Loading:** Chunks DOM rendering to maintain responsiveness during deep tree exploration.
+## 🚀 Overview
 
-## Usage
-Simply open `Json&HAR_analyser_v3.1_stable.html` in any modern web browser. No installation or internet connectivity required.
+**Forensic JSON Studio** is an enterprise-grade, zero-dependency Single Page Application (SPA) engineered for deep forensic inspection of network traffic and complex JSON payloads. Designed with **Privacy-First Architecture**, all operations execute entirely within the local browser sandbox—guaranteeing zero data exfiltration.
 
+---
 
+## ✨ Core Capabilities
+
+### 🌐 Network & Protocol Intelligence
+* **HAR Waterfall Visualization:** Interactive timing breakdowns, payload inspection, and domain mapping.
+* **Duplicate Request Finder:** Identifies redundant traffic and calculates bandwidth overhead.
+
+### 🔐 Security & Auth Auditing
+* **Auth Flow Detector:** Automatic identification and decoding of JWTs, Auth headers, and session cookies.
+* **Security Auditor:** Validates headers (`HSTS`, `CSP`, `X-Frame-Options`) and flags plaintext PII.
+
+### 🛠 Advanced Data Manipulation
+* **GraphQL Engine:** Specialized parsing for Queries, Mutations, and Subscriptions.
+* **Sanitization Engine:** One-click redaction (Emails, IPs, Hostnames, Tokens) for secure LLM ingestion.
+* **Deep Diff & Schema Inference:** Recursive JSON comparison and automated schema generation.
+
+---
+
+## ⚡ Performance Engineering
+
+Built to handle large datasets without degrading responsiveness:
+* **Size-Aware Gating:** Dynamic feature scaling based on payload size.
+* **Memory Discipline:** WebWorker execution pathways optimized for massive files.
+* **Lazy DOM Rendering:** Virtualized rendering for deep nested objects.
+
+---
+
+## 🛠 Getting Started
+
+### Option 1: Local Execution
+Simply clone the repository and open `index.html` in any modern web browser.
+
+### Option 2: Web Access
+Access the live environment directly via your hosted **GitHub Pages** instance.
+
+---
+*Maintained under MIT License.*
